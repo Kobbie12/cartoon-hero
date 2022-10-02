@@ -3,6 +3,9 @@ body {
 	font-family: 'Lato', sans-serif;
 	text-align: center;
 }
+body img{
+	max-width: auto;
+}
 
 header{    
 	background:url(../img/hey.jpg);
@@ -21,11 +24,12 @@ header img{
 	border-color: whitesmoke;
 	border-radius: 170px;
 	width: 300px;
-	border: 10px solid #FFFF;
+	border: 10px solid darkred;
 }
 
 h1, h2{
 	font-family: 'Abyssinica SIL', serif;
+	font-size: 20px;
 }
 
 footer{
@@ -38,5 +42,8 @@ footer{
 
 ol, ul{
 	text-align: left;
+}
 
+.biggie{
+	font-size: 16px;
 }

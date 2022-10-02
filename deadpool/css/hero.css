@@ -1,10 +1,14 @@
+/*Create commentary (  ctrl and / ) */
+
 body {
 	margin: 0;
-	font-family: 'Lato', sans-serif;
-	text-align: center;
+	font-family: 'Chakra Petch', sans-serif;
+	max-width: 1200px;
+	margin: 0 auto;
+	
 }
 body img{
-	max-width: auto;
+	max-width: 100%;
 }
 
 header{    
@@ -42,8 +46,36 @@ footer{
 
 ol, ul{
 	text-align: left;
+	font-weight: bold;
+	max-width: 800px;
+	margin: 0 auto;
 }
 
-.biggie{
-	font-size: 16px;
+p.biggie{
+	font-size: 20px;
+}
+main{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+a{
+	color: darkviolet;
+}
+
+a:hover{
+	color: darkgreen;	
+}
+
+a:footer{
+	color: whitesmoke;
+}
+
+footer a{
+	color: whitesmoke;
+}
+
+footer a:hover{
+	color: green;
 }
